@@ -16,6 +16,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
+        "illuminate/support": "^5.8|^6.0|^7.0",
         "webpatser/laravel-uuid": "^3.0",
         "dev-techguy/laravel-multiple-guards": "^1.0"
     },
