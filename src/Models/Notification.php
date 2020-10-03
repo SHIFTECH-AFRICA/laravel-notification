@@ -2,6 +2,7 @@
 
 namespace Note\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -9,7 +10,7 @@ use Note\Uuids\Uuids;
 
 class Notification extends Model
 {
-    use Uuids, SoftDeletes;
+    use Uuids, SoftDeletes, HasFactory;
 
     /**
      * Indicates if the IDs are auto-incrementing.
