@@ -1,0 +1,37 @@
+{
+    "name": "dev-techguy/note",
+    "description": "This is a custom system notification channel.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vincent Ososi",
+            "email": "vincent@shiftech.co.ke"
+        }
+    ],
+    "keywords": [
+        "laravel",
+        "notification-channels",
+        "notification"
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "webpatser/laravel-uuid": "^3.0",
+        "dev-techguy/laravel-multiple-guards": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Note\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Note\\NoteServiceProvider"
+            ],
+            "aliases": {
+                "Note": "Note\\NoteFacade"
+            }
+        }
+    }
+}
