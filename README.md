@@ -1,4 +1,4 @@
-# <p align="center"><a href="#" target="_blank"><img src="https://png.pngtree.com/png-vector/20190806/ourlarge/pngtree-alert-bell-notification-sound-blue-dotted-line-line-icon-png-image_1651804.jpg"></a></p>
+# <p align="center"><a href="#" target="_blank"><img src="https://png.pngtree.com/png-vector/20190806/ourlarge/pngtree-alert-bell-notification-sound-blue-dotted-line-line-icon-png-image_1651804.jpg" width="100"></a></p>
 
 <p align="center">
   <b>Makes Laravel Notification a Breeze...</b><br>
