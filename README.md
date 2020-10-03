@@ -208,7 +208,7 @@ public function notification(){
 
 | Version | Status     | Packagist           | Namespace    | Repo                |
 |---------|------------|---------------------|--------------|---------------------|
-| 1.x     | Latest     | `dev-techguy/note` | `Note/NoteServiceProvider` | [v1.0.0](https://github.com/dev-techguy/note/releases/tag/v1.0.0)|
+| 1.x     | Latest     | `dev-techguy/note` | `Note/NoteServiceProvider` | [v1.0.1](https://github.com/dev-techguy/note/releases/tag/v1.0.1)|
 
 [dev-techguy/note-1-repo]: https://github.com/dev-techguy/note.git
 
