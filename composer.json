@@ -12,7 +12,8 @@
     "keywords": [
         "laravel",
         "notification-channels",
-        "notification"
+        "notification",
+        "laravel guards"
     ],
     "minimum-stability": "stable",
     "require": {
