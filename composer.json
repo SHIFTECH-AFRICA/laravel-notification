@@ -1,12 +1,12 @@
 {
-    "name": "dev-techguy/note",
+    "name": "shiftechafrica/laravel-notification",
     "description": "This is a custom system notification channel.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Vincent Ososi",
-            "email": "vincent@shiftech.co.ke"
+            "name": "shiftech africa",
+            "email": "bugs@shiftech.co.ke"
         }
     ],
     "keywords": [
@@ -17,9 +17,9 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "illuminate/support": "^5.8|^6.0|^7.0|^8.0|^9.0|^10",
+        "illuminate/support": "^5.8|^6.0|^7.0|^8.0|^9.0|^10|^11",
         "webpatser/laravel-uuid": "^3.0|^4.0",
-        "dev-techguy/laravel-multiple-guards": "^1.0"
+        "shiftechafrica/laravel-multiple-guards": "^1.0"
     },
     "autoload": {
         "psr-4": {
