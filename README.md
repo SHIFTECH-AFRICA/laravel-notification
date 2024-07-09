@@ -2,13 +2,13 @@
 
 <p align="center">
   <b>Makes Laravel Notification a Breeze...</b><br>
-  <a href="https://github.com/shiftechafrica/laravel-notification/issues">
+  <a href="https://github.com/SHIFTECH-AFRICA/laravel-notification/issues">
   <img src="https://img.shields.io/github/issues/shiftechafrica/laravel-notification">
   </a>
-  <a href="https://github.com/shiftechafrica/laravel-notification/network/members">
+  <a href="https://github.com/SHIFTECH-AFRICA/laravel-notification/network/members">
   <img src="https://img.shields.io/github/forks/shiftechafrica/laravel-notification">
   </a>
-  <a href="https://github.com/shiftechafrica/laravel-notification/stargazers">
+  <a href="https://github.com/SHIFTECH-AFRICA/laravel-notification/stargazers">
   <img src="https://img.shields.io/github/stars/shiftechafrica/laravel-notification">
   </a>
     <a href="https://packagist.org/packages/shiftechafrica/laravel-notification">
@@ -208,9 +208,9 @@ public function notification(){
 
 | Version | Status     | Packagist           | Namespace    | Repo                |
 |---------|------------|---------------------|--------------|---------------------|
-| 1.x     | Latest     | `shiftechafrica/laravel-notification` | `Note/NoteServiceProvider` | [v1.0.4](https://github.com/shiftechafrica/laravel-notification/releases/tag/v1.0.4)|
+| 1.x     | Latest     | `shiftechafrica/laravel-notification` | `Note/NoteServiceProvider` | [v1.0.4](https://github.com/SHIFTECH-AFRICA/laravel-notification/releases/tag/v1.0.4)|
 
-[shiftechafrica/laravel-notification-1-repo]: https://github.com/shiftechafrica/laravel-notification.git
+[shiftechafrica/laravel-notification-1-repo]: https://github.com/SHIFTECH-AFRICA/laravel-notification
 
 ## Security Vulnerabilities
  For any security vulnerabilities, please email to [Support](mailto:bugs@@shiftech.co.ke).
