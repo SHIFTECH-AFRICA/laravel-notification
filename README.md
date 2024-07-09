@@ -2,20 +2,20 @@
 
 <p align="center">
   <b>Makes Laravel Notification a Breeze...</b><br>
-  <a href="https://github.com/dev-techguy/note/issues">
-  <img src="https://img.shields.io/github/issues/dev-techguy/note">
+  <a href="https://github.com/shiftechafrica/laravel-notification/issues">
+  <img src="https://img.shields.io/github/issues/shiftechafrica/laravel-notification">
   </a>
-  <a href="https://github.com/dev-techguy/note/network/members">
-  <img src="https://img.shields.io/github/forks/dev-techguy/note">
+  <a href="https://github.com/shiftechafrica/laravel-notification/network/members">
+  <img src="https://img.shields.io/github/forks/shiftechafrica/laravel-notification">
   </a>
-  <a href="https://github.com/dev-techguy/note/stargazers">
-  <img src="https://img.shields.io/github/stars/dev-techguy/note">
+  <a href="https://github.com/shiftechafrica/laravel-notification/stargazers">
+  <img src="https://img.shields.io/github/stars/shiftechafrica/laravel-notification">
   </a>
-    <a href="https://packagist.org/packages/dev-techguy/note">
-    <img src="https://poser.pugx.org/dev-techguy/note/v/stable">
+    <a href="https://packagist.org/packages/shiftechafrica/laravel-notification">
+    <img src="https://poser.pugx.org/shiftechafrica/laravel-notification/v/stable">
     </a>
-    <a href="https://packagist.org/packages/dev-techguy/note">
-    <img src="https://poser.pugx.org/dev-techguy/note/downloads">
+    <a href="https://packagist.org/packages/shiftechafrica/laravel-notification">
+    <img src="https://poser.pugx.org/shiftechafrica/laravel-notification/downloads">
     </a>
   <br><br>
 </p>
@@ -24,19 +24,19 @@ This package is custom notify for any model, so instead of using laravel notific
 
 ## Installing
 
-The recommended way to install *dev-techguy/note* is through
+The recommended way to install *shiftechafrica/laravel-notification* is through
 [Composer](http://getcomposer.org).
 
 ```bash
 # Install package via composer
-composer require dev-techguy/note
+composer require shiftechafrica/laravel-notification
 ```
 
-Next, run the Composer command to install the latest stable version of *dev-techguy/note*:
+Next, run the Composer command to install the latest stable version of *shiftechafrica/laravel-notification*:
 
 ```bash
 # Update package via composer
- composer require dev-techguy/note --lock
+ composer require shiftechafrica/laravel-notification --lock
 ```
 
 After installing, the package will be auto discovered, But if need you may run:
@@ -208,12 +208,12 @@ public function notification(){
 
 | Version | Status     | Packagist           | Namespace    | Repo                |
 |---------|------------|---------------------|--------------|---------------------|
-| 1.x     | Latest     | `dev-techguy/note` | `Note/NoteServiceProvider` | [v1.0.1](https://github.com/dev-techguy/note/releases/tag/v1.0.1)|
+| 1.x     | Latest     | `shiftechafrica/laravel-notification` | `Note/NoteServiceProvider` | [v1.0.4](https://github.com/shiftechafrica/laravel-notification/releases/tag/v1.0.4)|
 
-[dev-techguy/note-1-repo]: https://github.com/dev-techguy/note.git
+[shiftechafrica/laravel-notification-1-repo]: https://github.com/shiftechafrica/laravel-notification.git
 
 ## Security Vulnerabilities
- For any security vulnerabilities, please email to [TechGuy](mailto:vincent@@shiftech.co.ke).
+ For any security vulnerabilities, please email to [Support](mailto:bugs@@shiftech.co.ke).
 
 ## License
  This package is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
