@@ -206,9 +206,9 @@ public function notification(){
 
 ## Version Guidance
 
-| Version | Status     | Packagist           | Namespace    | Repo                |
-|---------|------------|---------------------|--------------|---------------------|
-| 1.x     | Latest     | `shiftechafrica/laravel-notification` | `Note/NoteServiceProvider` | [v1.0.5](https://github.com/SHIFTECH-AFRICA/laravel-notification/releases/tag/v1.0.5)|
+| Version | Status     | Packagist           | Namespace    | Repo                                                                                  |
+|---------|------------|---------------------|--------------|---------------------------------------------------------------------------------------|
+| 1.x     | Latest     | `shiftechafrica/laravel-notification` | `Note/NoteServiceProvider` | [v1.0.6](https://github.com/SHIFTECH-AFRICA/laravel-notification/releases/tag/v1.0.6) |
 
 [shiftechafrica/laravel-notification-1-repo]: https://github.com/SHIFTECH-AFRICA/laravel-notification
 
