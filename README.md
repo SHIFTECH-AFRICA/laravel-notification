@@ -58,9 +58,6 @@ You will have to provide this in the *.env* for the api configurations:
 ```php
 # This is the pagination number you want to paginate with <-- default(10) -->
 NOTE_NOTIFICATION_PAGINATE=
-
-# set all the guards to use within the system
-SYSTEM_GUARDS=admin,web
 ```
 ## Usage
 Follow the steps below on how to use the package:
