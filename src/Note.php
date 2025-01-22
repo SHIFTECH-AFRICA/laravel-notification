@@ -6,6 +6,7 @@ namespace Note;
 
 use LaravelMultipleGuards\Traits\FindGuard;
 use Note\Models\Notification;
+use Exception;
 
 class Note
 {
@@ -16,9 +17,10 @@ class Note
      * Read a notification here
      * --------------------------
      * @param string $notification_id
-     * @return
+     * @return mixed
+     * @throws Exception
      */
-    public static function readNotification(string $notification_id)
+    public static function readNotification(string $notification_id): mixed
     {
         $fetchMail = (new Note())->findGuardType()->user()->load('notification')
             ->notification()
@@ -38,9 +40,10 @@ class Note
      * Read a trashed notification here
      * --------------------------
      * @param string $notification_id
-     * @return
+     * @return mixed
+     * @throws Exception
      */
-    public static function readTrashedNotification(string $notification_id)
+    public static function readTrashedNotification(string $notification_id): mixed
     {
         $fetchMail = (new Note())->findGuardType()->user()->load('notification')
             ->notification()
@@ -61,8 +64,9 @@ class Note
      * --------------------------------
      * @param string $notification_id
      * @return bool
+     * @throws Exception
      */
-    public static function deleteSingleNotification(string $notification_id)
+    public static function deleteSingleNotification(string $notification_id): bool
     {
         $fetchMail = (new Note())->findGuardType()->user()->load('notification')
             ->notification()
@@ -80,8 +84,9 @@ class Note
      * --------------------------------
      * @param string $notification_id
      * @return bool
+     * @throws Exception
      */
-    public static function deleteTrashNotification(string $notification_id)
+    public static function deleteTrashNotification(string $notification_id): bool
     {
         $fetchMail = (new Note())->findGuardType()->user()->load('notification')
             ->notification()
@@ -99,8 +104,9 @@ class Note
      * delete all notifications here
      * --------------------------------
      * @return bool
+     * @throws Exception
      */
-    public static function deleteAllNotifications()
+    public static function deleteAllNotifications(): bool
     {
         $mails = (new Note())->findGuardType()->user()->load('notification')
             ->notification();
@@ -117,9 +123,10 @@ class Note
      * here
      * -------------------------------
      * @param bool $withPagination
-     * @return
+     * @return mixed
+     * @throws Exception
      */
-    public static function trashedNotifications(bool $withPagination = true)
+    public static function trashedNotifications(bool $withPagination = true): mixed
     {
         if ($withPagination)
             return (new Note())->findGuardType()->user()->load('notification')
@@ -141,8 +148,9 @@ class Note
      * delete a all trashed messages
      * ------------------------------
      * @return bool
+     * @throws Exception
      */
-    public static function clearTrashedNotifications()
+    public static function clearTrashedNotifications(): bool
     {
         $mails = (new Note())->findGuardType()->user()->load('notification')
             ->notification()->onlyTrashed();
@@ -157,9 +165,10 @@ class Note
      * fete latest notifications
      * --------------------------
      * @param bool $withPagination
-     * @return
+     * @return mixed
+     * @throws Exception
      */
-    public static function latestNotifications(bool $withPagination = true)
+    public static function latestNotifications(bool $withPagination = true): mixed
     {
         if ($withPagination)
             return (new Note())->findGuardType()->user()->load('notification')
@@ -183,9 +192,10 @@ class Note
      * Fetch all notifications here
      * --------------------------------
      * @param bool $withPagination
-     * @return
+     * @return mixed
+     * @throws Exception
      */
-    public static function allNotifications(bool $withPagination = true)
+    public static function allNotifications(bool $withPagination = true): mixed
     {
         if ($withPagination)
             return (new Note())->findGuardType()->user()->load('notification')
@@ -204,9 +214,10 @@ class Note
      * Fetch all unread notifications here
      * --------------------------------
      * @param bool $withPagination
-     * @return
+     * @return mixed
+     * @throws Exception
      */
-    public static function unreadNotifications(bool $withPagination = true)
+    public static function unreadNotifications(bool $withPagination = true): mixed
     {
         if ($withPagination)
             return (new Note())->findGuardType()->user()->load('notification')
@@ -231,8 +242,9 @@ class Note
      * @param string $subject
      * @param string $description
      * @return bool
+     * @throws Exception
      */
-    public static function createSystemNotification(string $modelClass, string $subject, string $description)
+    public static function createSystemNotification(string $modelClass, string $subject, string $description): bool
     {
         $notification = Notification::query()->create([
             'notification_id' => (new Note())->findGuardType()->id(),

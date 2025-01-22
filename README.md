@@ -3,13 +3,13 @@
 <p align="center">
   <b>Makes Laravel Notification a Breeze...</b><br>
   <a href="https://github.com/SHIFTECH-AFRICA/laravel-notification/issues">
-  <img src="https://img.shields.io/github/issues/shiftechafrica/laravel-notification">
+  <img src="https://img.shields.io/github/issues/SHIFTECH-AFRICA/laravel-notification">
   </a>
   <a href="https://github.com/SHIFTECH-AFRICA/laravel-notification/network/members">
-  <img src="https://img.shields.io/github/forks/shiftechafrica/laravel-notification">
+  <img src="https://img.shields.io/github/forks/SHIFTECH-AFRICA/laravel-notification">
   </a>
   <a href="https://github.com/SHIFTECH-AFRICA/laravel-notification/stargazers">
-  <img src="https://img.shields.io/github/stars/shiftechafrica/laravel-notification">
+  <img src="https://img.shields.io/github/stars/SHIFTECH-AFRICA/laravel-notification">
   </a>
     <a href="https://packagist.org/packages/shiftechafrica/laravel-notification">
     <img src="https://poser.pugx.org/shiftechafrica/laravel-notification/v/stable">

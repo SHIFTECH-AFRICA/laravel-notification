@@ -13,13 +13,14 @@
         "laravel",
         "notification-channels",
         "notification",
+        "laravel livewire notification",
+        "livewire",
         "laravel guards"
     ],
     "minimum-stability": "stable",
     "require": {
         "illuminate/support": "^5.8|^6.0|^7.0|^8.0|^9.0|^10|^11",
-        "webpatser/laravel-uuid": "^3.0|^4.0",
-        "shiftechafrica/laravel-multiple-guards": "^2.0"
+        "webpatser/laravel-uuid": "^3.0|^4.0"
     },
     "autoload": {
         "psr-4": {
